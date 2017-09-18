@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <h1>Pomodoro Clock</h1>
+<div id="wholepage">
+<audio id="sound">
+   <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3">
+   </audio>
+  <div id="addminus">
+<button id="min" onclick="minus()">-</button>
+<p id="time">5</p>
+<button id="ad" onclick="add()">+</button>
+   <br> 
+<button id="start" onclick="clicked()">START</button>
+<button id="rs" onclick="reset()">RESET</button>
+    </div>
+  <br>
+<div id="countdown">
+<h1 id="hour">00</h1>
+<h1 id="dot">:</h1>
+<h1 id="minute">5</h1>
+<h1 id="dot">:</h1>
+<h1 id="second">00</h1>
+  <br>
+  <br>
+  </div>
+  <div id="words"> 
+    <h1 id="text1">Hour</h1>
+  <h1 id="text2">Minute</h1>
+  <h1 id="text3">Second</h1>
+  </div>
+  
+</div>
+<footer>&copy; Coded by Ng Kok Wah</footer>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

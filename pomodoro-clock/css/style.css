@@ -1,0 +1,127 @@
+body {
+  text-align:center;
+  font-weight:900;
+  background: linear-gradient(58deg, #2b967a, #a4dd2c, #e57217);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 29%}
+    50%{background-position:100% 72%}
+    100%{background-position:0% 29%}
+}
+
+#wholepage {
+  border-style:solid;
+  background-color:rgba(255,255,255,0.6);
+  width:1000px;
+  height:220px;
+  margin-left:270px;
+  padding-bottom:40px;
+}
+
+#addminus {
+  margin-right:50px;
+}
+
+#countdown {
+  margin-left:325px;
+}
+
+#hour {
+  float:left;
+  margin-right:20px;
+}
+
+#minute {
+  float:left;
+  margin-right:20px;
+}
+
+#dot {
+  float:left;
+  margin-left:10px;
+  margin-right:50px;
+}
+
+#second {
+  float:left;
+  margin-right:20px;
+}
+
+#text1 {
+  float:left;
+  margin-right:20px;
+}
+#text2 {
+  float:left;
+  margin-right:20px;
+}
+#text3 {
+  float:left;
+}
+#time {
+  display: inline-block;
+}
+
+#words {
+  position:absolute;
+  left:580px;
+  
+}
+
+#min {
+  height:30px;
+  width:30px;
+}
+
+#ad {
+  height:30px;
+  width:30px;
+}
+
+#start {
+   height:40px;
+  width:90px;
+}
+
+#rs {
+   height:40px;
+  width:90px;
+}
+
+button {
+  font-weight:900;
+  border-style:solid;
+  border-radius:20px;
+  background-color:black;
+ 
+  color:white;
+}
+
+button:hover {
+  background-color:green;
+}
+
+button:active {
+  background-color:red;
+}
+
+footer {
+  margin-top:30px;
+  margin-bottom:20px;
+}
